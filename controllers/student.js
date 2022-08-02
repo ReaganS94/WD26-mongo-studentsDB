@@ -1,4 +1,3 @@
-const { restart } = require('nodemon');
 const Students = require('../models/student')
 
 const getAllStudents = async (req, res) => {
